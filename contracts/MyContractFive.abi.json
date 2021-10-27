@@ -1,0 +1,59 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "myStr",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"myStr","type":"string"}
+			]
+		},
+		{
+			"name": "myBool",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"myBool","type":"bool"}
+			]
+		},
+		{
+			"name": "myInt",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"myInt","type":"int256"}
+			]
+		},
+		{
+			"name": "myUint",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"myUint","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"myStr","type":"string"},
+		{"name":"myBool","type":"bool"},
+		{"name":"myInt","type":"int256"},
+		{"name":"myUint","type":"uint256"}
+	]
+}

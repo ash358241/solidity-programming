@@ -1,0 +1,50 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "addPerson",
+			"inputs": [
+				{"name":"_firstName","type":"string"},
+				{"name":"_lastName","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "peopleCount",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"peopleCount","type":"uint256"}
+			]
+		},
+		{
+			"name": "people",
+			"inputs": [
+			],
+			"outputs": [
+				{"components":[{"name":"_id","type":"uint256"},{"name":"_firstName","type":"string"},{"name":"_lastName","type":"string"}],"name":"people","type":"map(uint256,tuple)"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"peopleCount","type":"uint256"},
+		{"components":[{"name":"_id","type":"uint256"},{"name":"_firstName","type":"string"},{"name":"_lastName","type":"string"}],"name":"people","type":"map(uint256,tuple)"}
+	]
+}
